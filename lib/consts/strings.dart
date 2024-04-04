@@ -29,10 +29,17 @@ const home = "Home",
 
 //home screen string
 
-const searchAnything = "Search anything",
+const searchAnything = "Search anything...",
     todaydeal = "Today's Deal",
     flashSale = "Flash Sale",
     brands = "Brands",
     topSellers = "Top Sellers",
     topCategories = "Top Categories",
-    featuredcategories = "Feartured Categroies";
+    featuredcategories = "Feartured Categroies",
+    womendress = "Women Dressing",
+    mobilePhones = "Mobile Phones",
+    girlsdress = "Girls Dresses",
+    girlsWatches = "Girls Watches",
+    boysGlasses = "Boys Glasses",
+    tshirst = "T Shirts",
+    featuredProduct = "Feartured Products";
