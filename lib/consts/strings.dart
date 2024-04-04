@@ -31,7 +31,6 @@ const home = "Home",
 
 const searchAnything = "Search anything",
     todaydeal = "Today's Deal",
-    topSeller = "",
     flashSale = "Flash Sale",
     brands = "Brands",
     topSellers = "Top Sellers",
