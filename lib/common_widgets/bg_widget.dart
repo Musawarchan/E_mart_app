@@ -1,6 +1,6 @@
 import 'package:e_mart_app/consts/consts.dart';
 
-Widget bgWidget(Widget? child) {
+Widget bgWidget({Widget? child}) {
   return Container(
     decoration: const BoxDecoration(
         image: DecorationImage(

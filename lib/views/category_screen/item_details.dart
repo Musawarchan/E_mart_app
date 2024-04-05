@@ -1,0 +1,21 @@
+import 'package:e_mart_app/consts/consts.dart';
+
+class ItemDetails extends StatelessWidget {
+  const ItemDetails({super.key, required this.title});
+
+  final String? title;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: lightGrey,
+      appBar: AppBar(
+        title: title!.text.fontFamily(bold).color(darkFontGrey).make(),
+        actions: [
+          IconButton(onPressed: () {}, icon: const Icon(Icons.share)),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.favorite_outline))
+        ],
+      ),
+    );
+  }
+}
