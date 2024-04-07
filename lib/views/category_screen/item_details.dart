@@ -1,7 +1,6 @@
 import 'package:e_mart_app/common_widgets/our_button.dart';
 import 'package:e_mart_app/consts/consts.dart';
 import 'package:e_mart_app/consts/list.dart';
-import 'package:flutter/material.dart';
 
 class ItemDetails extends StatelessWidget {
   const ItemDetails({super.key, required this.title});
@@ -146,7 +145,7 @@ class ItemDetails extends StatelessWidget {
                             children: [
                               IconButton(
                                 onPressed: () {},
-                                icon: Icon(Icons.remove),
+                                icon: const Icon(Icons.remove),
                               ),
                               "0"
                                   .text
@@ -156,7 +155,7 @@ class ItemDetails extends StatelessWidget {
                                   .make(),
                               IconButton(
                                 onPressed: () {},
-                                icon: Icon(Icons.add),
+                                icon: const Icon(Icons.add),
                               ),
                               "(0 avaiable)".text.color(textfieldGrey).make()
                             ],
@@ -205,7 +204,7 @@ class ItemDetails extends StatelessWidget {
                                 .semiBold
                                 .color(darkFontGrey)
                                 .make(),
-                            trailing: Icon(Icons.arrow_forward),
+                            trailing: const Icon(Icons.arrow_forward),
                           ),
                         ),
                       ),

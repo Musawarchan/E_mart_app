@@ -2,7 +2,7 @@ import 'package:e_mart_app/common_widgets/bg_widget.dart';
 import 'package:e_mart_app/consts/consts.dart';
 import 'package:e_mart_app/consts/list.dart';
 import 'package:e_mart_app/views/category_screen/item_details.dart';
-import 'package:flutter/material.dart';
+
 import 'package:get/get.dart';
 
 class CategoryDetails extends StatelessWidget {
