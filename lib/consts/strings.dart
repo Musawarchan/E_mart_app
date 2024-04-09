@@ -63,3 +63,11 @@ const video = "Video",
     returnPolicy = "Return Policy",
     support = "Support Policy",
     productmayYouLike = "Product may you like";
+
+//profile String
+const mywallet = "My Wallet",
+    myOrders = "My Orders",
+    mywishist = "My WishList",
+    earnedPoints = "Earned Points",
+    refundRequests = "Refund Requests",
+    messages = "Messages";

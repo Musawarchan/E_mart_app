@@ -41,3 +41,21 @@ const itemDetailsButttonsList = [
   returnPolicy,
   support
 ];
+
+const profileButtonsList = [
+  mywallet,
+  myOrders,
+  mywishist,
+  earnedPoints,
+  refundRequests,
+  messages
+];
+
+const profileButtonIcons = [
+  icWallet,
+  icOrders,
+  icOrder,
+  icPoints,
+  icRefund,
+  icMessages
+];
