@@ -265,6 +265,7 @@ class ItemDetails extends StatelessWidget {
             height: 60,
             width: double.infinity,
             child: ourButton(
+                radiusValue: 0.0,
                 title: 'Add to cart',
                 color: redColor,
                 onPress: () {},

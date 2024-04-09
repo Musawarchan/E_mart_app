@@ -35,6 +35,7 @@ class LoginScreen extends StatelessWidget {
                 ),
                 5.heightBox,
                 ourButton(
+                        radiusValue: 0.0,
                         title: login,
                         color: redColor,
                         onPress: () {
@@ -48,6 +49,7 @@ class LoginScreen extends StatelessWidget {
                 createNewAccount.text.color(fontGrey).make(),
                 5.heightBox,
                 ourButton(
+                        radiusValue: 0.0,
                         title: signUp,
                         color: lightGolden,
                         onPress: () {
